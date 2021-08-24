@@ -3,11 +3,14 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
     return (
-        <header className="bg-info text-white">
-            <div className="container  mx-auto">
-                <nav className="d-flex gap-5">
-                    <h1 className="brand">PraPet</h1>
-                    <div className="d-flex justify-content-between gap-5 align-self-center">
+        <header className="header py-3">
+            
+                <nav className="container d-flex gap-5 align-items-center">
+                    <div className="logo">
+                        <h1 className="brand">PraPet</h1>
+                    </div>
+
+                    <div className="menu">
                         <NavLink to="/" exact>
                             Home
                         </NavLink>
@@ -18,8 +21,13 @@ export default function NavBar() {
                             Contatos
                         </NavLink>
                     </div>
+
+                    <div className="ms-auto">
+                        <a className="btn b-yellow" href="">Whatsapp</a>
+                    </div>
+
                 </nav>
-            </div>
+
         </header>
     )
 }

@@ -1,0 +1,43 @@
+.hw{
+    padding: 2rem 0;
+    //background-color:rgba(173, 216, 230, 0.3) ;
+    text-align: center;
+
+    h2{
+        color: $primary;
+        
+        margin-bottom: 2rem;
+
+        &::after{
+            content:'';
+            margin-top: 0.5rem;
+            width: 100px;
+            margin: auto;
+            height: 4px;
+            background-color: $secondary;
+            display: block;
+        }
+    }
+}
+
+.hw-steps{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hw-step{
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+
+    img{
+        height:80px
+    }
+    p{
+        margin: 0;
+        font-size: large;
+    }
+}
+

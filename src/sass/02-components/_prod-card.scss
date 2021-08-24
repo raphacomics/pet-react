@@ -1,0 +1,122 @@
+.prod-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+    justify-items: stretch;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+
+.prod-link{
+
+    
+
+
+.produto-card {
+    background-color: white;
+    //padding: 1rem;
+    border-radius: 1rem;
+    //border: solid 1px lightgrey;
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+
+        .foto{
+            height: 200px;
+            width: auto;
+            box-sizing: border-box;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        
+            img{
+                object-fit: cover;
+                transition: transform 0.3s;
+            }
+
+            
+            
+        }
+    
+
+    .card-info{
+        width: 100%;
+        
+        padding: 1.5rem;
+        position: relative;
+    
+        .card-title{
+            
+            color: $primary;
+            font-weight: bolder;
+            margin-bottom: 0;
+            font-size: 1.2rem;
+            transition: all 0.2s;
+
+            &::after{
+                content: '';
+                margin: 0.5rem 0;
+                width: 50px;
+                height: 1px;
+                display: block;
+                background-color: lightgray;
+            }
+
+            
+        }
+
+        .preco{
+            font-size: 1.625rem;
+            font-weight: bolder;
+            &::before{
+                font-size: small;
+                content: 'R$';
+                color: gray;
+            }
+        }
+
+        .comprar{
+            width: 100%;
+        }
+    
+        .descricao{
+            position: relative;
+            font-size: small;
+            line-height: 18px;
+            color: gray;
+            box-sizing: border-box;
+            overflow: hidden;
+            max-height: 36px;
+            margin-bottom: 0;
+            
+
+        }
+    }
+
+    }  
+    
+    &:hover{
+
+        img{
+            transform: scale(1.1);
+        }
+        
+        .card-info .card-title{
+            color: black;
+        }
+        
+    }
+    
+   
+}
+
+

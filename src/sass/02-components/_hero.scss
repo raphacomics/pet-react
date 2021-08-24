@@ -1,0 +1,30 @@
+.hero {
+  height: 70vh;
+  background-color: $primary;
+  display: flex;
+  align-items: center;
+
+  h1{
+      font-weight: bolder;
+      font-size: 3.5rem;
+  }
+
+  p{
+      line-height: 26px;
+  }
+
+}
+
+.hero-img {
+  
+  box-sizing: border-box;
+  overflow: hidden;
+
+  img {
+    width: auto;
+  }
+}
+
+.hero-title {
+  color: white;
+}

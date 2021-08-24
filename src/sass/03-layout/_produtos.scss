@@ -1,0 +1,29 @@
+.produtos{
+    //background-color:rgba(173, 216, 230, 0.3) ;
+    background-color: #ceeaf5;
+    
+}
+.prod-intro{
+    text-align: center;
+    margin-bottom: $s-4;
+
+h2 {
+    color: $primary;
+    font-weight: bolder;
+    
+    
+    &::after {
+        content: '';
+        margin-top: 0.5rem;
+        width: 100px;
+        margin: auto;
+        height: 4px;
+        background-color: #ffcc36;
+        display: block;
+    }
+}
+
+}
+
+
+

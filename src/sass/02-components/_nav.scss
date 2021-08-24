@@ -1,0 +1,43 @@
+.header{
+    //position: absolute;
+    width: 100%;
+    background-color: $primary;
+    //height: 80px;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $s-1;
+
+    h2{
+        margin: 0;
+    }
+
+    img{
+        height:100%;
+        width: auto;
+    }
+}
+
+
+.menu{
+    display: flex;
+    gap: $s-4;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+        transition: 0.2s ease;
+
+        &:hover{
+            color: $secondary;
+        }
+    }
+
+}
